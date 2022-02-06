@@ -18,7 +18,7 @@ public final class Maths {
     }
 
     public static double getAverageScore(Object[] array) {
-        return (double) sumOfIndexValues
+        return  sumOfIndexValues
                 (array, 0, array.length-1) / array.length;
     }
 
