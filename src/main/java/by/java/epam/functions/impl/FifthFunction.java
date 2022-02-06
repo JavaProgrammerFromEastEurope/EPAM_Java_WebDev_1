@@ -1,8 +1,7 @@
 package by.java.epam.functions.impl;
 
-import by.java.epam.application.utils.Init;
 import by.java.epam.application.utils.Maths;
-import by.java.epam.entity.Array;
+import by.java.epam.entity.CustomArray;
 import by.java.epam.functions.IFunction;
 import org.apache.logging.log4j.Level;
 
@@ -11,7 +10,7 @@ import java.util.Arrays;
 import static by.java.epam.application.utils.Init.initLineObjects;
 
 /** Determination the number of positive/negative array elements **/
-public class FifthFunction extends Array implements IFunction {
+public class FifthFunction extends CustomArray implements IFunction {
 
     @Override
     public void inputVariables(int length) {

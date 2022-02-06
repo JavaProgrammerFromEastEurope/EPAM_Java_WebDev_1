@@ -2,16 +2,14 @@ package by.java.epam.functions.impl;
 
 import by.java.epam.application.utils.Init;
 import by.java.epam.application.utils.Maths;
-import by.java.epam.entity.Array;
+import by.java.epam.entity.CustomArray;
 import by.java.epam.functions.IFunction;
 import org.apache.logging.log4j.Level;
 
 import java.util.Arrays;
 
-import static by.java.epam.application.utils.Init.initLineObjects;
-
 /** Determining the average value of array elements **/
-public class ThirdFunction extends Array implements IFunction {
+public class ThirdFunction extends CustomArray implements IFunction {
 
     @Override
     public void inputVariables(int length) {

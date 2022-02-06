@@ -2,18 +2,16 @@ package by.java.epam.functions.impl;
 
 import by.java.epam.application.utils.Init;
 import by.java.epam.application.utils.Maths;
-import by.java.epam.entity.Array;
+import by.java.epam.entity.CustomArray;
 import by.java.epam.functions.IFunction;
 import org.apache.logging.log4j.Level;
 
 import java.util.Arrays;
 
-import static by.java.epam.application.utils.Init.initLineObjects;
-
 /** Replacing array elements by condition:
  * Compress the array by throwing out every second element.
  **/
-public class SecondFunction extends Array implements IFunction {
+public class SecondFunction extends CustomArray implements IFunction {
 
     @Override
     public void inputVariables(int length) {

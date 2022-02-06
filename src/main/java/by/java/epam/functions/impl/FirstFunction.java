@@ -3,15 +3,14 @@ package by.java.epam.functions.impl;
 import by.java.epam.application.utils.Init;
 import by.java.epam.application.utils.Sort;
 import by.java.epam.functions.IFunction;
-import by.java.epam.entity.Array;
+import by.java.epam.entity.CustomArray;
 import org.apache.logging.log4j.Level;
 
 import java.util.Arrays;
-import static by.java.epam.application.utils.Init.initLineObjects;
 
 
 /** Finding min/max of array **/
-public class FirstFunction extends Array implements IFunction {
+public class FirstFunction extends CustomArray implements IFunction {
 
     @Override
     public void inputVariables(int length) {

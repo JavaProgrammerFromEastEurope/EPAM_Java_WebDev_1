@@ -1,6 +1,6 @@
 package by.java.epam.entity;
 
-public abstract class Array {
+public abstract class CustomArray {
 
     private Object[] array;
     private Object[] extraArray;
