@@ -1,0 +1,50 @@
+[INFO ] 2022-02-04 03:51:35.910 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [26, 6, 29, 15, 6, 5]
+ [5, 6, 6, 15, 26, 29]
+ Min value is: 5
+ Max value is: 29
+
+
+[INFO ] 2022-02-04 03:55:58.138 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [3, 22, 32, 21, 9, 25]
+ [3, 9, 21, 22, 25, 32]
+ Min value is: 3
+ Max value is: 32
+
+
+[INFO ] 2022-02-04 03:56:00.721 [main] IFunction - 2. Replacing array element by condition
+ Custom array:
+ [23, 19, 3, 12, 10, 10]
+ Modified array:
+ [23, 3, 10]
+
+
+[INFO ] 2022-02-04 03:56:02.918 [main] IFunction - 3. Determining the average value of array elements
+ Custom array:
+ [2, 4, 21, 12, 13, 19]
+ The Average score: 11.0
+
+
+[INFO ] 2022-02-04 03:56:05.829 [main] IFunction - 4. Determining sum of array elements
+ Custom array:
+ [25, 31, 15, 27, 7, 24]
+ The Sum of array element is: 129
+
+
+[INFO ] 2022-02-04 03:56:07.943 [main] IFunction - 5. Determination the number of positive/negative array elements.
+ Custom array:
+ [6, 8, 27, 4, 31, 24]
+ The Number of positive array elements: 4
+ The Number of negative array elements: 2
+
+
+[INFO ] 2022-02-04 05:21:22.895 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [32, 11, 3, 14, 10, 8]
+ [3, 8, 10, 11, 14, 32]
+ Min value is: 3
+ Max value is: 32
+
+

@@ -1,0 +1,123 @@
+[INFO ] 2022-02-06 03:24:24.667 [main] IFunction - 5. Determination the number of positive/negative array elements.
+ Custom array:
+ [-15, 7, -3, 7, 8, 14]
+ The Number of positive array elements: 4
+ The Number of negative array elements: 2
+
+
+[INFO ] 2022-02-06 18:09:10.138 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [1, 2, 3, 4, 5, 6]
+ [1, 2, 3, 4, 5, 6]
+ Min value is: 1
+ Max value is: 6
+
+
+[INFO ] 2022-02-06 18:11:07.281 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [1, 3, 6, 4, 2, 5]
+ [1, 3, 6, 4, 2, 5]
+ Min value is: 1
+ Max value is: 5
+
+
+[INFO ] 2022-02-06 18:12:49.460 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [1, 2, 3, 4, 5, 6]
+ [1, 2, 3, 4, 5, 6]
+ Min value is: 1
+ Max value is: 6
+
+
+[INFO ] 2022-02-06 18:13:58.974 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [1, 3, 6, 4, 2, 5]
+ [1, 3, 6, 4, 2, 5]
+ Min value is: 1
+ Max value is: 5
+
+
+[INFO ] 2022-02-06 18:15:34.402 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [1, 3, 6, 4, 2, 5]
+ [1, 3, 6, 4, 2, 5]
+ Min value is: 1
+ Max value is: 5
+
+
+[INFO ] 2022-02-06 18:17:01.479 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [1, 3, 6, 4, 2, 5]
+ [1, 2, 3, 4, 5, 6]
+ Min value is: 1
+ Max value is: 6
+
+
+[INFO ] 2022-02-06 18:24:48.954 [main] IFunction - 1. Finding min/max values of array
+ Custom array - Sort of Hoare:
+ [1, 3, 6, 4, 2, 5]
+ [1, 2, 3, 4, 5, 6]
+ Min value is: 1
+ Max value is: 6
+
+
+[INFO ] 2022-02-06 18:24:50.092 [main] IFunction - 2. Replacing array element by condition
+ Custom array:
+ [1, 3, 6, 4, 2, 5]
+ Modified array:
+ [1, 6, 2]
+
+
+[INFO ] 2022-02-06 18:24:50.997 [main] IFunction - 3. Determining the average value of array elements
+ Custom array:
+ [1, 3, 6, 4, 2, 5]
+ The Average score: 3.0
+
+
+[INFO ] 2022-02-06 18:24:51.833 [main] IFunction - 4. Determining sum of array elements
+ Custom array:
+ [1, 3, 6, 4, 2, 5]
+ The Sum of array element is: 21
+
+
+[INFO ] 2022-02-06 18:24:52.789 [main] IFunction - 5. Determination the number of positive/negative array elements.
+ Custom array:
+ [1, 3, 6, 4, 2, 5]
+ The Number of positive array elements: 6
+ The Number of negative array elements: 0
+
+
+[INFO ] 2022-02-06 18:25:47.951 [main] IFunction - 5. Determination the number of positive/negative array elements.
+ Custom array:
+ [1, 3, 6, 4, 2, 5]
+ The Number of positive array elements: 6
+ The Number of negative array elements: 0
+
+
+[INFO ] 2022-02-06 18:26:09.490 [main] IFunction - 5. Determination the number of positive/negative array elements.
+ Custom array:
+ [1, 3, 6, 4, 2, 5]
+ The Number of positive array elements: 6
+ The Number of negative array elements: 0
+
+
+[INFO ] 2022-02-06 18:30:30.862 [main] IFunction - 4. Determining sum of array elements
+ Custom array:
+ [5, 12, 17, 2, 2, 30]
+ The Sum of array element is: 68
+
+
+[INFO ] 2022-02-06 18:30:32.960 [main] IFunction - 5. Determination the number of positive/negative array elements.
+ Custom array:
+ [1, 3, 6, 4, 2, 5]
+ The Number of positive array elements: 6
+ The Number of negative array elements: 0
+
+
+[INFO ] 2022-02-06 18:32:44.810 [main] IFunction - 5. Determination the number of positive/negative array elements.
+ Custom array:
+ [7, -6, 1, -10, -6, 13]
+ The Number of positive array elements: 3
+ The Number of negative array elements: 3
+
+
