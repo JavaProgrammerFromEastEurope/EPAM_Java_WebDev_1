@@ -18,8 +18,8 @@ public final class Maths {
     }
 
     public static double getAverageScore(Object[] array) {
-        return sumOfIndexValues
-            (array, 0, array.length-1) / array.length;
+        return (double) sumOfIndexValues
+                (array, 0, array.length-1) / array.length;
     }
 
     public static Object[] changeArrayElements(Object[] array) {
