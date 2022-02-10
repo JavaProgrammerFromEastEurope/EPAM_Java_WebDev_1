@@ -1,15 +1,15 @@
-package by.java.epam.functions.impl;
+package by.epam.java.functions.impl;
 
-import by.java.epam.application.utils.Init;
-import by.java.epam.application.utils.Maths;
-import by.java.epam.entity.CustomArray;
-import by.java.epam.functions.IFunction;
+import by.epam.java.application.utils.Maths;
+import by.epam.java.functions.IFunction;
 import org.apache.logging.log4j.Level;
 
 import java.util.Arrays;
 
+import static by.epam.java.application.utils.Init.initLineObjects;
+
 /** Determining the average value of array elements **/
-public class ThirdFunction extends CustomArray implements IFunction {
+public class ArrayAverFunction implements IFunction {
 
     @Override
     public void inputVariables(int length) {
@@ -22,9 +22,8 @@ public class ThirdFunction extends CustomArray implements IFunction {
 
     @Override
     public void calcFunction() {
-        // setArray(initLineObjects(true, true, (int)variables[0]));
-        setArray(Init.initArrayFromFile());
-        operation[0] = Maths.getAverageScore(getArray());
+        customArray.setArray(initLineObjects(true, true, (int)variables[0]));
+        operation[0] = Maths.getAverageScore(customArray.getArray());
     }
 
     @Override
@@ -34,7 +33,7 @@ public class ThirdFunction extends CustomArray implements IFunction {
             addString[1] = "Custom array:";
             addString[2] = "The Average score:";
             logger.printf(Level.INFO,"%s%n %s%n %s%n %s %.1f%n%n",addString[0], addString[1],
-                     Arrays.toString(getArray()), addString[2], operation[0]);
+                     Arrays.toString(customArray.getArray()), addString[2], operation[0]);
         } finally {
             IFunction.super.setDefaults();
         }

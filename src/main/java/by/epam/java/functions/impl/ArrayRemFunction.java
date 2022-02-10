@@ -1,17 +1,17 @@
-package by.java.epam.functions.impl;
+package by.epam.java.functions.impl;
 
-import by.java.epam.application.utils.Init;
-import by.java.epam.application.utils.Maths;
-import by.java.epam.entity.CustomArray;
-import by.java.epam.functions.IFunction;
+import by.epam.java.application.utils.Maths;
+import by.epam.java.functions.IFunction;
 import org.apache.logging.log4j.Level;
 
 import java.util.Arrays;
 
+import static by.epam.java.application.utils.Init.initLineObjects;
+
 /** Replacing array elements by condition:
  * Compress the array by throwing out every second element.
  **/
-public class SecondFunction extends CustomArray implements IFunction {
+public class ArrayRemFunction implements IFunction {
 
     @Override
     public void inputVariables(int length) {
@@ -24,9 +24,8 @@ public class SecondFunction extends CustomArray implements IFunction {
 
     @Override
     public void calcFunction() {
-        // setArray(initLineObjects(true, true, (int) variables[0]));
-        setArray(Init.initArrayFromFile());
-        setExtraArray(Maths.changeArrayElements(getArray()));
+        customArray.setArray(initLineObjects(true, true, (int) variables[0]));
+        customArray.setExtraArray(Maths.changeArrayElements(customArray.getArray()));
     }
 
     @Override
@@ -36,8 +35,8 @@ public class SecondFunction extends CustomArray implements IFunction {
             addString[1] = "Custom array:";
             addString[2] = "Modified array:";
             logger.printf(Level.INFO,"%s%n %s%n %s%n %s%n %s%n%n", addString[0],
-                    addString[1], Arrays.toString(getArray()),
-                    addString[2], Arrays.toString(getExtraArray()));
+                    addString[1], Arrays.toString(customArray.getArray()),
+                    addString[2], Arrays.toString(customArray.getExtraArray()));
         } finally {
             IFunction.super.setDefaults();
         }
